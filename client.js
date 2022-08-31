@@ -34,7 +34,7 @@ getAndDisplayMessages = async () => {
 
 //! THE POLL STRATEGY
 pollMessages = () => {
-  setInterval(getAndDisplayMessages, 3000);
+  setInterval(getAndDisplayMessages, 10000);
 };
 
 //? THE STREAMING STRATEGY
